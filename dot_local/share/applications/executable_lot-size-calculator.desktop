@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=lot-size-calculator
+Comment=lot-size-calculator
+Exec=omarchy-launch-webapp "https://fundednext.com/calculator/lot-size-calculator"
+Terminal=false
+Type=Application
+Icon=lot-size-calculator
+StartupNotify=true

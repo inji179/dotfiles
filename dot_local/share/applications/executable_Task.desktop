@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Task
+Comment=Task
+Exec=omarchy-launch-webapp "https://tasks.google.com/tasks/"
+Terminal=false
+Type=Application
+Icon=task
+StartupNotify=true

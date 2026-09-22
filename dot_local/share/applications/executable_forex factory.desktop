@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=forex factory
+Comment=forex factory
+Exec=omarchy-launch-webapp "https://www.forexfactory.com/calendar"
+Terminal=false
+Type=Application
+Icon=forex-factory
+StartupNotify=true

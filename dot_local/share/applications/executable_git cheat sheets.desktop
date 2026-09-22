@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=git cheat sheets
+Comment=git cheat sheets
+Exec=omarchy-launch-webapp "https://gitcheatsheets.org/"
+Terminal=false
+Type=Application
+Icon=git-cheat-sheets
+StartupNotify=true

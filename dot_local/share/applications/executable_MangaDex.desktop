@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=MangaDex
+Comment=MangaDex
+Exec=omarchy-launch-webapp "https://mangadex.org/"
+Terminal=false
+Type=Application
+Icon=mangadex
+StartupNotify=true

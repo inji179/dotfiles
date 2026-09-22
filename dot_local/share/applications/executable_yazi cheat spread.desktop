@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=yazi cheat spread
+Comment=yazi cheat spread
+Exec=omarchy-launch-webapp "https://ricoberger.de/cheat-sheets/yazi/"
+Terminal=false
+Type=Application
+Icon=yazi-cheat-spread
+StartupNotify=true
