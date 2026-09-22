@@ -1,0 +1,57 @@
+- 1.1.20
+- _NAME: G502 X LIGHTSPEED
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, scroll-ratchet-torque, smart-shift, thumb-scroll-invert, thumb-scroll-mode, report_rate_extended,
+    pointer_speed, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out, backlight_duration_hands_in, backlight_duration_powered,
+    backlight-timed, led_control, led_zone_, rgb_control, rgb_zone_, per-key-lighting, brightness_control, rgb_idle_effect, rgb_idle_timeout, rgb_sleep_timeout,
+    rgb_startup_animation, rgb_shutdown_animation, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys, disable-keyboard-keys, force-sensing,
+    crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, analog-button-tuning,
+    haptic-level, haptic-play, sidetone, equalizer, adc_power_management, headset-eco-mode, headset-do-not-disturb, headset-mic-mute, headset-mic-snr, headset-ai-nr,
+    headset-ai-nr-level, headset-sidetone, headset-mic-gain, headset-mix-balance, headset-auto-sleep, headset-onboard-eq, headset-eq-active-preset, headset-advanced-eq,
+    headset_led_control, headset-onboard-effect, headset_per_zone_lighting, headset-signature-startup, headset-signature-shutdown, headset-signature-passive,
+    logivoice-nr-state, logivoice-ng-state, logivoice-comp-state, logivoice-deesser-state, logivoice-depopper-state, logivoice-limiter-state, logivoice-hpf-state]
+  _battery: 4100
+  _config_cookie: [220, 67]
+  _modelId: 409FC0980000
+  _sensitive: {dpi: true, hires-scroll-mode: true, hires-smooth-invert: true, hires-smooth-resolution: true, onboard_profiles: true, report_rate: true}
+  _serial: AC4B9ECC
+  _unitId: AC4B9ECC
+  _wpid: 409F
+  dpi: 1000
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  onboard_profiles: 3
+  report_rate: 8
+- _NAME: MX Keys Keyboard
+  _modelId: B35B408A0000
+  _sensitive: {backlight: true, change-host: true, disable-keyboard-keys: true, divert-keys: true, fn-swap: true, multiplatform: true}
+  _serial: 068170C1
+  _unitId: 068170C1
+  _wpid: 408A
+  backlight: 0
+  change-host: null
+  disable-keyboard-keys: {1: false, 2: false, 4: false, 8: false, 16: false}
+  divert-keys: {10: 0, 110: 0, 111: 0, 191: 0, 199: 0, 200: 0, 209: 0, 210: 0, 211: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0,
+    233: 0, 234: 0, 235: 0, 236: 0}
+  fn-swap: true
+  multiplatform: 0
+- _NAME: 'Wireless Mouse  '
+  _absent: [hi-res-scroll, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, scroll-ratchet-torque, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate, report_rate_extended, pointer_speed, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out,
+    backlight_duration_hands_in, backlight_duration_powered, backlight-timed, led_control, led_zone_, rgb_control, rgb_zone_, per-key-lighting, brightness_control,
+    rgb_idle_effect, rgb_idle_timeout, rgb_sleep_timeout, rgb_startup_animation, rgb_shutdown_animation, fn-swap, persistent-remappable-keys, disable-keyboard-keys,
+    force-sensing, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params,
+    analog-button-tuning, haptic-level, haptic-play, sidetone, equalizer, adc_power_management, headset-eco-mode, headset-do-not-disturb, headset-mic-mute,
+    headset-mic-snr, headset-ai-nr, headset-ai-nr-level, headset-sidetone, headset-mic-gain, headset-mix-balance, headset-auto-sleep, headset-onboard-eq,
+    headset-eq-active-preset, headset-advanced-eq, headset_led_control, headset-onboard-effect, headset_per_zone_lighting, headset-signature-startup, headset-signature-shutdown,
+    headset-signature-passive, logivoice-nr-state, logivoice-ng-state, logivoice-comp-state, logivoice-deesser-state, logivoice-depopper-state, logivoice-limiter-state,
+    logivoice-hpf-state]
+  _config_cookie: [204, 234]
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
+  _serial: '00000000'
+  _unitId: '00000000'
+  _wpid: '4091'
+  divert-keys: {82: 0}
+  dpi: 1000
+  lowres-scroll-mode: false
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82}
