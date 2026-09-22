@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=MT5 10k
-Comment=MT5 10k
-Exec=omarchy-launch-webapp https://webterminal.fundednext.com/terminal
-Terminal=false
-Type=Application
-Icon=mt5-10k
-StartupNotify=true
