@@ -23,6 +23,9 @@ o.bind("CTRL + SHIFT + 3", "Screenrecording", "omarchy-capture-screenrecording -
 o.bind("CTRL + SHIFT + 4", "Color picker", "pkill hyprpicker || hyprpicker -a")
 o.bind("CTRL + SHIFT + 2", "Extract text (OCR) from screenshot", "omarchy-capture-text")
 
+-- close window
+hl.unbind("SUPER + W")
+
 --hl.unbind("SUPER + BACKSPACE")
 --o.bind("SUPER + BACKSPACE", "Close window", hl.dsp.window.close())
 
