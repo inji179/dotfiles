@@ -1,0 +1,34 @@
+#!/bin/bash
+set -euo pipefail
+
+file="/usr/share/omarchy/shell/plugins/notifications/Service.qml"
+original='model: Quickshell.screens'
+replacement='model: Quickshell.screens.filter(screen => screen.name === "DP-4")'
+
+# Ne rien faire sur une machine sans ce plugin.
+if [[ ! -f "$file" ]]; then
+  exit 0
+fi
+
+# Ne rien modifier si le filtre est déjà présent.
+if grep -Fq "$replacement" "$file"; then
+  exit 0
+fi
+
+# Vérifier que la ligne attendue existe une seule fois.
+count=$(grep -Ec '^[[:space:]]*model: Quickshell\.screens[[:space:]]*$' "$file" || true)
+
+if [[ "$count" != "1" ]]; then
+  echo "Modification annulée : structure de Service.qml à vérifier." >&2
+  exit 1
+fi
+
+# Conserver une sauvegarde avant la modification.
+sudo cp -a "$file" "${file}.bak.$(date +%Y%m%d-%H%M%S)"
+
+sudo sed -i \
+  's/^\([[:space:]]*\)model: Quickshell\.screens[[:space:]]*$/\1model: Quickshell.screens.filter(screen => screen.name === "DP-4")/' \
+  "$file"
+
+echo "Notifications limitées à DP-4."
+echo "Pour appliquer : omarchy restart shell"
